@@ -32,7 +32,7 @@ sudo nano .bashrc
 ```
 At the bottom of the file, type:
 ```
-alias fan='~/./RPi-Fan-Control/fan.sh'
+alias fan='sudo -i ~/./RPi-Fan-Control/fan.sh'
 ```
 Reboot your Pi.
 
