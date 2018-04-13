@@ -1,5 +1,25 @@
 # RPi-Fan-Control
 Controls GPIO 18 on the Raspberry Pi.
+To Use:
+If you have the alias `fan` (see below):
+```
+#To Turn On
+fan on
+#To Turn Off
+fan off
+#To Check Status
+fan
+```
+If you do not have the alias `fan`:
+```
+#To Turn On
+sudo -i ~/./RPi-Fan-Control/fan.sh on
+#To Turn Off
+sudo -i ~/./RPi-Fan-Control/fan.sh off
+#To Check Status
+sudo -i ~/./RPi-Fan-Control/fan.sh
+```
+Just get the alias. (see below)
 
 # Setup
 SSH into your Pi or open a new Terminal Window.
