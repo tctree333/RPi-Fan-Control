@@ -1,6 +1,7 @@
 # RPi-Fan-Control
-Controls GPIO 18 on the Raspberry Pi.<br>
-To Use:<br>
+Controls GPIO 18 on the Raspberry Pi.
+
+# To Use:
 If you have the alias `fan` (see below):
 ```
 #To Turn On
