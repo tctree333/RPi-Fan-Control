@@ -1,3 +1,4 @@
+#!/bin/bash
 ARG=$1
 TEMP=$(/opt/vc/bin/vcgencmd measure_temp)
 echo $TEMP
